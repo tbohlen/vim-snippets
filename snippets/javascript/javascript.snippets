@@ -1,3 +1,19 @@
+# Turner's custom comment snippets
+
+snippet file
+	/********************************************************************\
+	Project: ${1:projectname}
+	File: ${2:`eval('bufname("%"eval)')`}
+	Description: ${3:file Description}
+	Author: ${4:Turner Bohlen (www.turnerbohlen.com)}
+	Created: ${5:`system("date +%m/%d/%Y")`}
+	Copyright `system("date +%Y")` ${6:Turner Bohlen}
+	\********************************************************************/
+snippet section
+	////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////// ${1:Section} ////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////
+
 # Functions
 
 # prototype
